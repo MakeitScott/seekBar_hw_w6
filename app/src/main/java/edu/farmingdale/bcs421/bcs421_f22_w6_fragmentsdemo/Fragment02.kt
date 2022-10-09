@@ -22,10 +22,11 @@ class Fragment02 : Fragment(R.layout.fragment_02) {
 
         binding = Fragment02Binding.inflate(getLayoutInflater(),container,false);
         var view:View =binding.root
+        //
         val btn = view.findViewById<Button>(R.id.fgBtn1);
 
         btn.setOnClickListener{
-            view.findViewById<TextView>(R.id.fgTv1).setText("Moaath Alrajab")
+            view.findViewById<TextView>(R.id.fgTv1).setText("Scott Pietras")
         }
         return view
     }
